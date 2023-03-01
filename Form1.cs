@@ -21,25 +21,36 @@ namespace GameServer
 
     public partial class Form1 : Form
     {
+        TcpListener serverListner;
+        IPAddress ipAd;
         Queue<Socket> players_Sockets;   // list all client players 
+        NetworkStream server_network_stream;
+        StreamReader Server_stream_reader;
+  
+
         public Form1()
         {
             InitializeComponent();
-            IPAddress ipAd = IPAddress.Parse("192.168.1.10");
-            TcpListener serverListner = new TcpListener(ipAd, 8001);
+             ipAd = IPAddress.Parse("192.168.1.10");
+             serverListner = new TcpListener(ipAd,10024);
             serverListner.Start();
             players_Sockets = new Queue<Socket>();
 
-            Thread thread = new Thread(new ThreadStart(() =>
+            Thread connection_thread = new Thread(new ThreadStart(() =>
             {
 
                 while (true)
                 {
                     players_Sockets.Enqueue(serverListner.AcceptSocket());
+                   
+
                 }
                      }));
 
-            thread.Start();
+            connection_thread.Start();
+
+
+          
 
 
 
@@ -54,12 +65,21 @@ namespace GameServer
                 MessageBox.Show("The remote  End point is  :" +
                                           player.RemoteEndPoint);
             }
-
-        }
+        } 
 
         private void recieve_btn_Click(object sender, EventArgs e)
         {
+            server_network_stream = new NetworkStream(players_Sockets.Peek());
+            Server_stream_reader = new StreamReader(server_network_stream);
+            MessageBox.Show(Server_stream_reader.ReadToEnd());
+                    server_network_stream.Close();
+              
+                   
+                
+          
 
+
+            
         }
     }
 
