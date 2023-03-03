@@ -1,0 +1,11 @@
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\bin\Debug\Connect 4 Project.exe.config
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\bin\Debug\Connect 4 Project.exe
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\bin\Debug\Connect 4 Project.pdb
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.csproj.AssemblyReference.cache
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect_4_Project.Properties.Resources.resources
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.csproj.GenerateResource.cache
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.csproj.CoreCompileInputs.cache
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.exe
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect 4 Project.pdb
+C:\Users\mohand\Desktop\c# project\Connect 4 Project\Connect 4 Project\obj\Debug\Connect_4_Project.Form1.resources
