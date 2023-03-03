@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mohand\\Desktop\\c# project\\GameServer\\GameServer.csproj": {}
+    "C:\\Users\\mohand\\Desktop\\c# project\\GameServer1\\GameServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mohand\\Desktop\\c# project\\GameServer\\GameServer.csproj": {
+    "C:\\Users\\mohand\\Desktop\\c# project\\GameServer1\\GameServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer\\GameServer.csproj",
+        "projectUniqueName": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer1\\GameServer.csproj",
         "projectName": "GameServer",
-        "projectPath": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer\\GameServer.csproj",
+        "projectPath": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer1\\GameServer.csproj",
         "packagesPath": "C:\\Users\\mohand\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer\\obj\\",
+        "outputPath": "C:\\Users\\mohand\\Desktop\\c# project\\GameServer1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohand\\AppData\\Roaming\\NuGet\\NuGet.Config",
