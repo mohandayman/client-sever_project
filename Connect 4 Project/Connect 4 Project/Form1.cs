@@ -45,7 +45,7 @@ namespace Connect_4_Project
 
             catch (Exception exp)
             {
-                MessageBox.Show(exp.Message);
+                
             }
 
 
@@ -65,9 +65,29 @@ namespace Connect_4_Project
             newTab_thread.Start();
         }
 
-        private void recieve_massege_Click(object sender, EventArgs e)
+        
+        private void join_room_1_Click(object sender, EventArgs e)
         {
-           
+            Game_client.Send_Massege("Join Room 1");
+        }
+        
+
+        private void join_room_2_Click_1(object sender, EventArgs e)
+        {
+            Game_client.Send_Massege("Join Room 2");
+
+        }
+
+        private void join_room_3_Click_1(object sender, EventArgs e)
+        {
+            Game_client.Send_Massege("Join Room 3");
+
+        }
+
+        private void join_room_4_Click_1(object sender, EventArgs e)
+        {
+            Game_client.Send_Massege("Join Room 4");
+
         }
     }
 
@@ -82,7 +102,7 @@ namespace Connect_4_Project
         int portNumber;
         Socket client_socket;
         NetworkStream client_network_stream;
-        StreamWriter client_stream_writer;
+        public StreamWriter client_stream_writer;
         public StreamReader client_stream_reader;
         static public int Connected_players;
         public string server_massege { set; get; }
@@ -94,7 +114,7 @@ namespace Connect_4_Project
             {
                 server_massege = client_stream_reader.ReadLine();
                 New_server_massege(this,server_massege);
-                MessageBox.Show(server_massege);
+               
             }
         }
         static client()
@@ -125,7 +145,7 @@ namespace Connect_4_Project
         }
         public void on_player_connected(object obj)
         {
-            MessageBox.Show(Connected_players.ToString());
+           
         }
         public void Send_Massege(string msg)
         {
@@ -138,7 +158,7 @@ namespace Connect_4_Project
         {
             form.Invoke(new MethodInvoker(delegate () {
                 form.massegeBox.Text = server_massege;}));
-        } 
+        }
 
     }
 }

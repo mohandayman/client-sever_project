@@ -31,8 +31,10 @@
             this.send_button = new System.Windows.Forms.Button();
             this.New_tab = new System.Windows.Forms.Button();
             this.massegeBox = new System.Windows.Forms.TextBox();
-            this.recieve_massege = new System.Windows.Forms.Button();
-            this.connected = new System.Windows.Forms.Label();
+            this.join_room_4 = new System.Windows.Forms.Button();
+            this.join_room_3 = new System.Windows.Forms.Button();
+            this.join_room_2 = new System.Windows.Forms.Button();
+            this.join_room_1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // send_button
@@ -63,32 +65,55 @@
             this.massegeBox.Size = new System.Drawing.Size(188, 144);
             this.massegeBox.TabIndex = 3;
             // 
-            // recieve_massege
+            // join_room_4
             // 
-            this.recieve_massege.Location = new System.Drawing.Point(103, 120);
-            this.recieve_massege.Name = "recieve_massege";
-            this.recieve_massege.Size = new System.Drawing.Size(103, 42);
-            this.recieve_massege.TabIndex = 4;
-            this.recieve_massege.Text = "recieve massege";
-            this.recieve_massege.UseVisualStyleBackColor = true;
-            this.recieve_massege.Click += new System.EventHandler(this.recieve_massege_Click);
+            this.join_room_4.Location = new System.Drawing.Point(600, 12);
+            this.join_room_4.Name = "join_room_4";
+            this.join_room_4.Size = new System.Drawing.Size(153, 63);
+            this.join_room_4.TabIndex = 4;
+            this.join_room_4.Text = "join_room_4";
+            this.join_room_4.UseVisualStyleBackColor = true;
+            this.join_room_4.Click += new System.EventHandler(this.join_room_4_Click_1);
             // 
-            // connected
+            // join_room_3
             // 
-            this.connected.AutoSize = true;
-            this.connected.Location = new System.Drawing.Point(478, 61);
-            this.connected.Name = "connected";
-            this.connected.Size = new System.Drawing.Size(125, 16);
-            this.connected.TabIndex = 5;
-            this.connected.Text = "connected_players ";
+            this.join_room_3.Location = new System.Drawing.Point(413, 12);
+            this.join_room_3.Name = "join_room_3";
+            this.join_room_3.Size = new System.Drawing.Size(153, 63);
+            this.join_room_3.TabIndex = 5;
+            this.join_room_3.Text = "join_room_3";
+            this.join_room_3.UseVisualStyleBackColor = true;
+            this.join_room_3.Click += new System.EventHandler(this.join_room_3_Click_1);
+            // 
+            // join_room_2
+            // 
+            this.join_room_2.Location = new System.Drawing.Point(225, 12);
+            this.join_room_2.Name = "join_room_2";
+            this.join_room_2.Size = new System.Drawing.Size(153, 63);
+            this.join_room_2.TabIndex = 6;
+            this.join_room_2.Text = "join_room_2";
+            this.join_room_2.UseVisualStyleBackColor = true;
+            this.join_room_2.Click += new System.EventHandler(this.join_room_2_Click_1);
+            // 
+            // join_room_1
+            // 
+            this.join_room_1.Location = new System.Drawing.Point(34, 12);
+            this.join_room_1.Name = "join_room_1";
+            this.join_room_1.Size = new System.Drawing.Size(153, 63);
+            this.join_room_1.TabIndex = 7;
+            this.join_room_1.Text = "join_room_1";
+            this.join_room_1.UseVisualStyleBackColor = true;
+            this.join_room_1.Click += new System.EventHandler(this.join_room_1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(779, 450);
-            this.Controls.Add(this.connected);
-            this.Controls.Add(this.recieve_massege);
+            this.Controls.Add(this.join_room_1);
+            this.Controls.Add(this.join_room_2);
+            this.Controls.Add(this.join_room_3);
+            this.Controls.Add(this.join_room_4);
             this.Controls.Add(this.massegeBox);
             this.Controls.Add(this.New_tab);
             this.Controls.Add(this.send_button);
@@ -103,8 +128,10 @@
         private System.Windows.Forms.Button send_button;
         private System.Windows.Forms.Button New_tab;
         public System.Windows.Forms.TextBox massegeBox;
-        private System.Windows.Forms.Button recieve_massege;
-        private System.Windows.Forms.Label connected;
+        private System.Windows.Forms.Button join_room_4;
+        private System.Windows.Forms.Button join_room_3;
+        private System.Windows.Forms.Button join_room_2;
+        private System.Windows.Forms.Button join_room_1;
     }
 }
 
